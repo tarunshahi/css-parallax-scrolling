@@ -5,6 +5,6 @@
 > Require NMP
 
 >Follow the step for run the project
-- nmp install or sudo npm install
+- npm install or sudo npm install
 - npm start
 - project will run on http://localhost:3333/
