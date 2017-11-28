@@ -1,0 +1,112 @@
+nav{
+	background-color:#fff;
+	height:50px;
+	z-index:10;
+	font-size:16px;
+	.navbar-brand{
+	    font-size: 1rem;
+    	font-weight: 500;
+    	color:#0056b3;
+	}
+	.navbar-nav{
+			width:40%;
+	}
+	a{
+		font-size:.9rem;
+		color:#0056b3;
+		:hover{
+			color:#0056b3;
+			background-color:transparent;
+		}
+	}
+	.nav-item{
+		margin:0px auto;
+	}
+	.logo{
+		position: absolute;
+	    top: 0px;
+	    left: 50%;
+	    width: 100px;
+	    margin-left: -50px;
+	}
+}
+.page-header{
+	position:relative;
+	top:0px;
+	left:0px;
+	right:0px;
+	width:100%;
+	height:800px;
+	background-image:url('/dist/images/surf_banner.jpg');
+	background-repeat:no-repeat;
+	background-position:center;
+	background-size:cover;
+	.page-header-content{
+		top: 50%;
+	    position: absolute;
+	    margin-top: -250px;
+	    padding-left: 100px;
+		.h-line{
+			border-top: 5px solid;
+		    width: 100px;
+		    margin-left: 0px;
+		}
+		p{
+		    max-width:450px;
+		}
+	}
+}
+.page-content-text{
+	text-align:center;
+	padding-top:100px;
+	width:60%;
+	margin:0 auto;
+	.content-header{
+		font-size:25px;
+		color:#a9a9a9;
+		b{
+			color:#000;
+		}
+	}
+	.content-text{
+		font-size:14px;
+	}
+}
+.image-block{
+	width: 60%;
+    margin: 5rem auto;
+    height: 400px;
+    border: 1px solid #ffd700;
+    position: relative;
+    .image-block-content{
+    	width:35%;
+    	margin:3rem 1rem;
+    	.image-content-header{
+    		background-color: #000;
+		    padding: 0.5rem;
+		    position: relative;
+		    left: -35px;
+		    color: #fff;
+		    text-align: right;
+		    margin-bottom: 0.5rem;
+
+    	}
+    	.image-content-text{
+    		color:#808080;
+    	}
+    }
+    .right{
+    	position: absolute;
+    	right: 0px;
+    	.image-content-header{
+    		left: 0px;
+		    text-align: left;
+		    margin-left: 50px;
+		    width: 100%;
+		    background: #2f4f4f;
+    	}
+    	.image-content-text{
+    		margin-left:50px;
+    	}
+    }
+}
